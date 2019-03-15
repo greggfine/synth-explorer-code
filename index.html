@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+  
+</head>
+<body>
+
+ <header ng-include="'header.html'"></header>
+ <main ng-view></main>
+
+
+
+ <footer ng-include="'footer.html'"></footer>
+
+<script src="app/main.js"></script>
+<script>
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+    }
+    function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0px';
+        document.getElementById('main').style.marginLeft = '0px';
+    }
+</script>
+</body>
+</html>
+
+
+<!--Please make the content in json objects and render it
+ 
+Use regular Javascript or AngularJS 1
+ 
+Do not use a CSS framework.
+ 
+Use CSS animations to animate the content changes
+ 
+Make sure that it is mobile responsive when resizing the browser. Should work on iPhone, iPad and desktop  -->
+
+
+
+

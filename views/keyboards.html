@@ -1,0 +1,9 @@
+<input type="text" placeholder="search" ng-model="gear"> 
+
+<ul ng-controller="myAppController">
+     <li ng-repeat="data in myData | filter: gear">
+            {{data.name}}
+            <img ng-src="{{data.imageUrl}}" alt="">
+     </li>
+     
+ </ul>
