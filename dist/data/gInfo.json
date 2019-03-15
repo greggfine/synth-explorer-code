@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Yamaha AN1X",
         "age": 20,
         "available": true,
@@ -17,4 +18,5 @@
         "available": true,
         "imageUrl": "https://i.ebayimg.com/images/g/xT0AAOSwz~paQF1o/s-l1600.jpg"
 
-}]
+    }
+]

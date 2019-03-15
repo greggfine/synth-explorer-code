@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ['ngRoute']);
+var app = angular.module("myApp", ['ngRoute', 'ngAnimate']);
 
 app.config(['$routeProvider', function ($routeProvider){
     $routeProvider
@@ -43,5 +43,12 @@ app.controller('ContactController', ['$scope', '$location', function($scope, $lo
         $location.path('/contact-success');
     }
 }])
+
+app.controller('flipCtrl', function ($scope) { });
+
+
+
+
+
 
 
