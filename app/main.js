@@ -8,6 +8,10 @@ app.config(['$routeProvider', function ($routeProvider){
         .when('/keyboards', {
             templateUrl: 'views/keyboards.html'
         })
+        .when('/keyboards/:name/:description/:image', {
+            templateUrl: 'views/keyboards-detail.html',
+            controller: 'DetailsController'
+        })
         .when('/contact', {
             templateUrl: 'views/contact.html',
             controller: 'ContactController'
@@ -25,16 +29,16 @@ app.config(['$routeProvider', function ($routeProvider){
 }])
 
 
-app.controller('myAppController', ['$scope', '$http', function($scope, $http){
+app.controller('myAppController', ['$scope', '$http', function ($scope, $http){
 
     $http.get('data/gInfo.json').then(successCallback, errorCallback);
     function successCallback(data) {
         $scope.myData = data.data;
-        console.log($scope.myData)
     }
     function errorCallback(error) {
         console.log(error)
     }
+
 
 }]);
 
@@ -45,6 +49,13 @@ app.controller('ContactController', ['$scope', '$location', function($scope, $lo
 }])
 
 
+app.controller('DetailsController', ['$scope', '$routeParams', function($scope, $routeParams){
+    $scope.model = {
+        name: $routeParams.name,
+        description: $routeParams.description,
+        image: $routeParams.image,
+    }
+}])
 
 
 

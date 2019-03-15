@@ -1,58 +1,65 @@
 [
     {
-        "name": "Yamaha AN1X",
-        "age": 20,
-        "analog": true,
-        "imageUrl": "https://images.reverb.com/image/upload/s--9tTU8stg--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1474838274/xnkgg6istgz3r9x7zrpy.jpg"
+        "name": "Yamaha AN1X!",
+        "id": 55,
+        "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
         "name": "Nord Lead",
-        "age": 30,
-        "analog": false,
-        "imageUrl": "https://media.sweetwater.com/images/items/750/NordLeadA1-large.jpg?v=bdce5310a22e5eda"
-
+        "id": 56,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
         "name": "Roland Jupiter 6",
-        "age": 40,
-        "analog": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/xT0AAOSwz~paQF1o/s-l1600.jpg"
-
+        "id": 57,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Moog",
-        "age": 20,
-        "analog": true,
-        "imageUrl": "https://images.reverb.com/image/upload/s--9tTU8stg--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1474838274/xnkgg6istgz3r9x7zrpy.jpg"
+        "name": "Yamaha AN1X!",
+        "id": 55,
+        "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Taurus",
-        "age": 30,
-        "analog": false,
-        "imageUrl": "https://media.sweetwater.com/images/items/750/NordLeadA1-large.jpg?v=bdce5310a22e5eda"
+        "name": "Nord Lead",
+        "id": 56,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Polyi-Six",
-        "age": 40,
-        "analog": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/xT0AAOSwz~paQF1o/s-l1600.jpg"
+        "name": "Roland Jupiter 6",
+        "id": 57,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Dan Smith",
-        "age": 20,
-        "analog": true,
-        "imageUrl": "https://images.reverb.com/image/upload/s--9tTU8stg--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_620,q_90,w_620/v1474838274/xnkgg6istgz3r9x7zrpy.jpg"
+        "name": "Yamaha AN1X!",
+        "id": 55,
+        "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Joe Baggs",
-        "age": 30,
-        "analog": false,
-        "imageUrl": "https://media.sweetwater.com/images/items/750/NordLeadA1-large.jpg?v=bdce5310a22e5eda"
+        "name": "Nord Lead",
+        "id": 56,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     },
     {
-        "name": "Akai",
-        "age": 40,
-        "analog": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/xT0AAOSwz~paQF1o/s-l1600.jpg"
+        "name": "Roland Jupiter 6",
+        "id": 57,
+        "description": "ok",
+        "image": "an1x.jpg",
+        "summary": "This is a summary"
     }
 ]

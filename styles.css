@@ -41,9 +41,9 @@ form textarea {
      height: 400px;
 }
 
-img {
+/* img {
      width: 50%;
-}
+} */
 
 input[type="submit"]{
      width: 200px;
@@ -63,11 +63,54 @@ input[disabled="disabled"]{
      cursor: not-allowed !important;
 }
 
+.keyboard-list {
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 1400px;
+     margin: auto;
+     height: 1200px;
+     justify-content: space-between;
+}
+
 .keyboard-card {
-     border: 1px solid #000;
-     max-width: 600px;
+     border-radius: 4px;
+     flex-basis: 400px;
      list-style-type: none;
-     margin: 60px;
+     border: 1px solid #000;
+     position: relative;
+     background: #fefff9;
+     color: #363636;     
+	margin-bottom: 20px; 
+     padding-bottom: 30px; 
+     box-shadow:  0px 0 8px 0;
+     transition: all 600ms;
+}
+
+.keyboard-card img {
+     width: 100%;
+}
+
+.keyboard-card:hover {
+     box-shadow: 0px 0px 40px 0px;
+     cursor: pointer;
+}
+
+.card-title {
+		background: rgba(157, 187, 63, .75);
+		padding: 3.5% 0 2.5% 0;
+		color: white;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 170px;
+		width: 100%;
+}
+
+.card-title h3 {
+     font-size: 1.2em;
+     line-height: 1.2;
+     padding: 0 3.5%;
+     margin: 0;
+     text-align: center;
 }
 
 nav {
@@ -178,113 +221,3 @@ main.ng-enter.ng-enter-active {
 
 /* FLIP */
 
-.flip {
-  -webkit-perspective: 800;
-   /* width: 400px; 
-   height: 200px;  */
-   position: relative;
-   margin: 50px auto;
-   display: flex;
-   flex-wrap: wrap;
-   /* border: 10px solid red; */
-      width: 1200px; 
-   height: 600px; 
-   justify-content: space-around;
-}
-.flip .card.flipped {
-  -webkit-transform: rotateY(180deg);
-  /* -webkit-transform: rotatex(-180deg); */
-}
-
-.flip .card {
-     /* border: 10px solid #000; */
-  /* margin: 10px; */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* height: 400px; */
-  -webkit-transform-style: preserve-3d;
-  -webkit-transition: 0.5s;
-  flex-basis: 360px;
-}
-
-
-
-.flip .card .face {
-  /* width: 100%; */
-  /* height: 100%; */
-  position: absolute;
-  -webkit-backface-visibility: hidden ;
-  z-index: 2;
-  text-align: center;
-  /* line-height: 200px; */
-}
-
-.flip .card .front {
-  /* position: absolute; */
-  z-index: 1;
-  background: black;
-  color: white;
-  cursor: pointer;
-  height: 140px;
-}
-.flip .card .back {
-  -webkit-transform: rotatex(-180deg);
-    background: blue;
-    /* background: white; */
-    color: black;
-    cursor: pointer;
-      height: 140px;
-}
-
-.face h3 {
-     color: #000;
-}
-
-.face p {
-     font-size: 0.8rem;
-     transform: rotateZ(180deg);
-}
-
-
-/* MEDIA */
-
-@media screen and (max-width: 1200px){
-     .flip {
-       height: 1080px;
-       width: 100%;
-     }    
-}
-
-@media screen and (min-width: 568px){
-      .open-slide{
-          display: none;
-     }
-}
-
-@media screen and (max-width: 768px){
-     .flip .card {
-      margin-bottom: 260px;    
-     }
-
-.flip .card .front {
-  /* position: absolute; */
-  z-index: 1;
-  background: black;
-  color: white;
-  cursor: pointer;
-  height: 90px;
-  /* margin: 60px; */
-  /* padding: 60px; */
-}
-.flip .card .back {
-  -webkit-transform: rotatex(-180deg);
-    background: blue;
-    /* background: white; */
-    color: black;
-    cursor: pointer;
-      height: 90px;
-      /* margin: 60px; */
-      /* padding: 60px; */
-}
- 
-}
