@@ -44,7 +44,6 @@ app.controller('ContactController', ['$scope', '$location', function($scope, $lo
     }
 }])
 
-app.controller('flipCtrl', function ($scope) { });
 
 
 

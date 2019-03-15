@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Keyboards</title>
     <link rel="stylesheet" href="styles.css">
+
     <script src="app/lib/angular.min.js"></script>
     <script src="app/lib/angular-route.min.js"></script>
     <script src="app/lib/angular-animate.min.js"></script>
-  
+
 </head>
 <body>
 
- <header ng-include="'header.html'"></header>
- <main ng-view></main>
+<div class="container">
+    <header ng-include="'header.html'"></header>
+    <main ng-view></main>
 
 
 
- <footer ng-include="'footer.html'"></footer>
+    <footer ng-include="'footer.html'"></footer>
+</div>
 
 <script src="app/main.js"></script>
 <script>

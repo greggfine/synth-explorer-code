@@ -11,6 +11,10 @@ body {
      padding: 0;
 }
 
+.container {
+     width: 100%;
+}
+
 form {
      max-width: 600px;
      margin: 100px auto;
@@ -38,7 +42,7 @@ form textarea {
 }
 
 img {
-     width: 25%;
+     width: 50%;
 }
 
 input[type="submit"]{
@@ -144,11 +148,7 @@ nav h1 {
      }
 }
 
-@media screen and (min-width: 568px){
-     .open-slide{
-          display: none;
-     }
-}
+
 
 
 /* =========================== */
@@ -180,42 +180,111 @@ main.ng-enter.ng-enter-active {
 
 .flip {
   -webkit-perspective: 800;
-   width: 400px;
-   height: 200px;
-    position: relative;
-    margin: 50px auto;
+   /* width: 400px; 
+   height: 200px;  */
+   position: relative;
+   margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   /* border: 10px solid red; */
+      width: 1200px; 
+   height: 600px; 
+   justify-content: space-around;
 }
 .flip .card.flipped {
-  -webkit-transform: rotatex(-180deg);
+  -webkit-transform: rotateY(180deg);
+  /* -webkit-transform: rotatex(-180deg); */
 }
+
 .flip .card {
-  width: 100%;
-  height: 100%;
+     /* border: 10px solid #000; */
+  /* margin: 10px; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* height: 400px; */
   -webkit-transform-style: preserve-3d;
   -webkit-transition: 0.5s;
+  flex-basis: 360px;
 }
+
+
+
 .flip .card .face {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
   position: absolute;
   -webkit-backface-visibility: hidden ;
   z-index: 2;
-    font-family: Georgia;
-    font-size: 3em;
-    text-align: center;
-    line-height: 200px;
+  text-align: center;
+  /* line-height: 200px; */
 }
+
 .flip .card .front {
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
-    background: black;
-    color: white;
-    cursor: pointer;
+  background: black;
+  color: white;
+  cursor: pointer;
+  height: 140px;
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
     background: blue;
-    background: white;
+    /* background: white; */
     color: black;
     cursor: pointer;
+      height: 140px;
+}
+
+.face h3 {
+     color: #000;
+}
+
+.face p {
+     font-size: 0.8rem;
+     transform: rotateZ(180deg);
+}
+
+
+/* MEDIA */
+
+@media screen and (max-width: 1200px){
+     .flip {
+       height: 1080px;
+       width: 100%;
+     }    
+}
+
+@media screen and (min-width: 568px){
+      .open-slide{
+          display: none;
+     }
+}
+
+@media screen and (max-width: 768px){
+     .flip .card {
+      margin-bottom: 260px;    
+     }
+
+.flip .card .front {
+  /* position: absolute; */
+  z-index: 1;
+  background: black;
+  color: white;
+  cursor: pointer;
+  height: 90px;
+  /* margin: 60px; */
+  /* padding: 60px; */
+}
+.flip .card .back {
+  -webkit-transform: rotatex(-180deg);
+    background: blue;
+    /* background: white; */
+    color: black;
+    cursor: pointer;
+      height: 90px;
+      /* margin: 60px; */
+      /* padding: 60px; */
+}
+ 
 }
