@@ -1,0 +1,144 @@
+*, *::before, *::after {
+     box-sizing: border-box;
+}
+
+html {
+     font-family: Arial, sans-serif;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+form {
+     max-width: 600px;
+     margin: 100px auto;
+     display: flex;
+     flex-direction: column;
+}
+
+form input {
+     padding: 10px;
+     margin: 10px;
+     border-radius: 6px;
+}
+
+form textarea {
+   width: 300px;
+   height: 200px;
+   margin: 30px auto;
+   border-radius: 6px;
+}
+
+.home {
+     background-image: url('images/puk-khantho-125951-unsplash.jpg');
+     background-size: cover;
+     height: 400px;
+}
+
+img {
+     width: 25%;
+}
+
+input[type="submit"]{
+     width: 200px;
+     margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+     cursor: pointer;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+     border: 2px solid red;
+}
+
+input[disabled="disabled"]{
+     opacity: 0.4;
+     cursor: not-allowed !important;
+}
+
+nav {
+     height: 70px; 
+     border-bottom: 1px solid black;
+     display: flex;
+     justify-content: space-between;
+     overflow: hidden;
+     background-color: lightblue;
+}
+
+nav h1 {
+     padding-left: 60px;
+}
+
+.nav-links {
+     display: flex;
+     list-style-type: none;
+     align-items: center;
+     margin-right: 60px;
+}
+
+.nav-links li a {
+     text-decoration: none;
+     margin-right: 60px;
+     color: #000;
+}
+
+.nav-links li a:hover {
+     color: white;
+}
+
+.side-nav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     opacity: 0.9;
+     overflow-x: hidden;
+     padding-top: 60px;
+     transition: 0.5s;
+}
+
+.side-nav a{
+     padding: 10px 10px 10px 30px;
+     text-decoration: none;
+     font-size: 22px;
+     color: #ccc;
+     display: block;
+     transition: 0.3s;
+}
+
+.side-nav a:hover{
+     color: #fff;
+}
+
+.side-nav .btn-close{
+     padding: absolute;
+     top:0;
+     right: 22px;
+     font-size: 36px;
+     margin-left: 50px;
+}
+
+#main {
+     transition: margin-left 0.5s;
+     padding: 20px;
+     overflow: hidden;
+     width: 100%;
+}
+
+@media screen and (max-width: 568px){
+     .nav-links{
+          display: none;
+     }
+}
+
+@media screen and (min-width: 568px){
+     .open-slide{
+          display: none;
+     }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "gradus_web_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greggfine/ang-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greggfine/ang-1/issues"
+  },
+  "homepage": "https://greggfine.github.io/ang-1",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
