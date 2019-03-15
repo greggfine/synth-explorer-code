@@ -2,8 +2,11 @@
      box-sizing: border-box;
 }
 
-html {
+html, body {
      font-family: Arial, sans-serif;
+     height: 100%;
+     color: #002a3a;
+     background-color: #fefefe;
 }
 
 body {
@@ -11,8 +14,27 @@ body {
      padding: 0;
 }
 
+.about-text {
+     text-align: center;
+     max-width: 1000px;
+     margin: 120px auto;
+     font-size: 1.5rem;
+}
+
 .container {
      width: 100%;
+}
+
+.footer{
+     background-color: #002A3A;
+     color: #EE3D6E;
+     text-align: center;
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     padding: 1rem;
+     text-align: center;
 }
 
 form {
@@ -38,12 +60,10 @@ form textarea {
 .home {
      background-image: url('images/puk-khantho-125951-unsplash.jpg');
      background-size: cover;
+     background-repeat: no-repeat;
      height: 400px;
 }
 
-/* img {
-     width: 50%;
-} */
 
 input[type="submit"]{
      width: 200px;
@@ -63,12 +83,21 @@ input[disabled="disabled"]{
      cursor: not-allowed !important;
 }
 
+.keyboard-filter {
+     border: 1px solid #000;
+     margin: 40px auto;
+     display: block;
+     padding: 12px;
+     border-radius: 2px;
+     font-size: 1.2rem;
+}
+
 .keyboard-list {
      display: flex;
      flex-wrap: wrap;
      max-width: 1400px;
      margin: auto;
-     height: 1200px;
+     /* height: 1200px; */
      justify-content: space-between;
 }
 
@@ -96,12 +125,12 @@ input[disabled="disabled"]{
 }
 
 .card-title {
-		background: rgba(157, 187, 63, .75);
+          background: rgba(175, 69, 103, .75);
 		padding: 3.5% 0 2.5% 0;
 		color: white;
 		text-transform: uppercase;
 		position: absolute;
-		bottom: 170px;
+		bottom: 70px;
 		width: 100%;
 }
 
@@ -119,7 +148,8 @@ nav {
      display: flex;
      justify-content: space-between;
      overflow: hidden;
-     background-color: lightblue;
+     color: #fff;
+     background-color: #002A3A;
 }
 
 nav h1 {
@@ -136,7 +166,9 @@ nav h1 {
 .nav-links li a {
      text-decoration: none;
      margin-right: 60px;
-     color: #000;
+     color: #EE3D6E;
+     font-weight: bold;
+     text-transform: uppercase;
 }
 
 .nav-links li a:hover {
@@ -168,6 +200,7 @@ nav h1 {
 
 .side-nav a:hover{
      color: #fff;
+     /* color: #EE3D6E; */
 }
 
 .side-nav .btn-close{
@@ -178,11 +211,25 @@ nav h1 {
      margin-left: 50px;
 }
 
+.sub-heading {
+     display: block;
+     font: 41px/54px Arial,sans-serif;
+     letter-spacing: -1.1px;
+     margin: 0 auto 125px;
+     text-align: center;
+}
+
 #main {
      transition: margin-left 0.5s;
      padding: 20px;
      overflow: hidden;
      width: 100%;
+}
+
+@media screen and (min-width: 568px){
+     .open-slide{
+          display: none;
+     }
 }
 
 @media screen and (max-width: 568px){
@@ -191,10 +238,6 @@ nav h1 {
      }
 }
 
-
-
-
-/* =========================== */
 
 /* ANIMATIONS */
 main.ng-enter {
@@ -218,6 +261,4 @@ main.ng-enter.ng-enter-active {
 }
 
 
-
-/* FLIP */
 
