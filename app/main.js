@@ -5,10 +5,10 @@ app.config(['$routeProvider', function ($routeProvider){
         .when('/home', {
             templateUrl: 'views/home.html'
         })
-        .when('/keyboards', {
+        .when('/synths', {
             templateUrl: 'views/keyboards.html'
         })
-        .when('/keyboards/:name/:description/:image', {
+        .when('/synths/:name/:description/:image', {
             templateUrl: 'views/keyboards-detail.html',
             controller: 'DetailsController'
         })
@@ -30,7 +30,6 @@ app.config(['$routeProvider', function ($routeProvider){
 
 
 app.controller('myAppController', ['$scope', '$http', function ($scope, $http){
-
     $http.get('data/gInfo.json').then(successCallback, errorCallback);
     function successCallback(data) {
         $scope.myData = data.data;
@@ -38,8 +37,6 @@ app.controller('myAppController', ['$scope', '$http', function ($scope, $http){
     function errorCallback(error) {
         console.log(error)
     }
-
-
 }]);
 
 app.controller('ContactController', ['$scope', '$location', function($scope, $location){
@@ -48,7 +45,6 @@ app.controller('ContactController', ['$scope', '$location', function($scope, $lo
     }
 }])
 
-
 app.controller('DetailsController', ['$scope', '$routeParams', function($scope, $routeParams){
     $scope.model = {
         name: $routeParams.name,
@@ -56,9 +52,3 @@ app.controller('DetailsController', ['$scope', '$routeParams', function($scope, 
         image: $routeParams.image,
     }
 }])
-
-
-
-
-
-
