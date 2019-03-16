@@ -1,14 +1,18 @@
 <div class="content">
     <form name="contactForm" ng-submit="sendMessage()" novalidate>
-        <input type="text" placeholder="name" name="name" ng-model="contact.name" ng-required="true"/>
+        <label for="name">Name(required)</label>
+        <input id="name" type="text" name="name" ng-model="contact.name" ng-required="true"/>
         <div ng-show="contactForm.name.$touched && contactForm.name.$invalid">
             <small style="color: red; display: block; text-align: center">Enter a valid name</small>
         </div>
-        <input type="email" placeholder="email" name="email" ng-model="contact.email" ng-required="true"/>
+        <label for="email">Email(required)</label>
+        <input type="email" name="email" ng-model="contact.email" ng-required="true"/>
         <div ng-show="contactForm.email.$touched && contactForm.email.$invalid">
-                <small style="color: red; display: block; text-align: center">Enter a valid email</small>
+            <small style="color: red; display: block; text-align: center">Enter a valid email</small>
         </div>
-        <textarea name="message" placeholder="Your Message" ng-model="contact.message" ng-required="true"></textarea>
+        <label for="message">Your Message</label>
+
+        <textarea name="message" ng-model="contact.message" ng-required="true"></textarea>
         <input type="submit" value="Send" ng-disabled="contactForm.$invalid"/>
     </form>
 </div>

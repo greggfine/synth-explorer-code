@@ -1,65 +1,56 @@
 [
     {
-        "name": "Yamaha AN1X!",
-        "id": 55,
-        "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
-        "image": "an1x.jpg",
+        "name": "Oberheim OB-Xa",
+        "description": "The OB-Xa is a massive analog synthesizer with a very familiar and classic Oberheim sound. Its sound, size and power are very similar to the Prophet 5 from Sequential. However this one has up to 8 voices which can be split, layered and stored!",
+        "image": "*oberheim-ob-xa.jpg",
         "summary": "This is a summary"
     },
     {
-        "name": "Nord Lead",
-        "id": 56,
-        "description": "ok",
-        "image": "an1x.jpg",
-        "summary": "This is a summary"
-    },
-    {
-        "name": "Roland Jupiter 6",
-        "id": 57,
-        "description": "ok",
-        "image": "an1x.jpg",
-        "summary": "This is a summary"
-    },
-    {
-        "name": "Yamaha AN1X!",
-        "id": 55,
-        "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
-        "image": "an1x.jpg",
-        "summary": "This is a summary"
-    },
-    {
-        "name": "Nord Lead",
-        "id": 56,
-        "description": "ok",
-        "image": "an1x.jpg",
+        "name": "Sequential Circuits Prophet 5",
+        "description": "One of the most classic analog polysynths of the 80s, the Prophet 5 features five voices with two oscillators per voice, a fat resonant low pass filter, an LFO capable of modulating the pitch or pulse width and patch memory storage, which was revolutionary for the time. While it predated MIDI implementation by several years, it does have CV input for control of the VCA or filter cutoff. ",
+        "image": "*sequential_circuits_prophet_5.jpg",
         "summary": "This is a summary"
     },
     {
         "name": "Roland Jupiter 6",
-        "id": 57,
-        "description": "ok",
-        "image": "an1x.jpg",
+        "description": "The Jupiter 6 is a 6-voice polyphonic synthesizer with a 61-note (C-C) keyboard. Each voice consists of 2 VCOs. VCO1 is switchable between any combination of triangle, sawtooth, pulse, and square waves and can be switched between 4 octaves. VCO2 has the same options, except the square wave is replaced by a noise generator switch and it has a 6 octave range, with an octave above and below VCO1's range.",
+        "image": "*roland-jupiter-6.jpg",
         "summary": "This is a summary"
     },
     {
-        "name": "Yamaha AN1X!",
-        "id": 55,
+        "name": "Roland Juno 106",
+        "description": "Juno-106 is Juno-6 and Juno-60 successor. Though unlike its ancestors, it features 128 presets that can be saved and offer a quick switch between them – that might have determined its popularity. This synthesizer supports MIDI control and responds to SysEx commands - it allows editing and uploading presets via computer (VST-AU JUNO-106 Editor by rekon, Juno 106 Editor by Benjamin Jaeger, etc.).",
+        "image": "*roland_juno_106.jpg",
+        "summary": "This is a summary"
+    },
+    {
+        "name": "Yamaha cs-80",
+        "description": "A very old and very huge (over 200 lbs.) classic synthesizer. Considered Japans first great synthesizer. It had some pretty amazing features for its time such as eight voice polyphony, patch memory storage and polyphonic aftertouch. It can generate great analog strings, brass, drones and pads with that instantly recognizable classic polysynth sound. No synth sounds greater. Some examples of its extremely fat sound can be heard in 'Blade Runner' and 'Mutiny on the Bounty' by Vangelis as well as 'Dune' by Toto. ",
+        "image": "*yamaha_cs80.jpg",
+        "summary": "This is a summary"
+    },
+    {
+        "name": "Moog Minimoog",
+        "description": "Historically, the Minimoog is considered the very first synthesizer for musicians! Compact, affordable, simplified and based on the megalithic modular Moog synths, the Minimoog became the most popular synth of all time, and still is to this day! Prior to the Minimoog, synthesizers were custom built to order, and required a great deal of technical knowledge to be able to wire up and create a sound.",
+        "image": "*moog_minimoog.jpg",
+        "summary": "This is a summary"
+    },
+    {
+        "name": "Korg Polysix",
         "description": "The AN1x is a powerful retro-analog synth with a really cool new feature that lets you record real-time editing and filtering and be able to store it as part of the sound! A major contender in the new wave of analog-digital synths using DSP modeling of analog waveforms to recreate the coveted sounds of analog synths with modern digital specifications. It offers truly traditional yet modern methods of analog synthesizing, 10 notes of polyphony, 8 knobs for tweaking, and an arpeggiator with dozens of inspiring patterns!",
-        "image": "an1x.jpg",
+        "image": "*korg_polysix.jpg",
         "summary": "This is a summary"
     },
     {
-        "name": "Nord Lead",
-        "id": 56,
-        "description": "ok",
-        "image": "an1x.jpg",
+        "name": "Roland Jupiter-8",
+        "description": "The Jupiter-8, or JP-8, is an eight-voice polyphonic analog subtractive synthesizer introduced by Roland Corporation in early 1981.The Jupiter-8 was Roland's flagship synthesizer for the first half of the 1980s. Although it lacked the soon-to-be standard of MIDI control, later model Jupiter-8s did include Roland's proprietary DCB interface. The Jupiter-8 had many advanced features for its time, including the ability to split the keyboard into two zones with a separate patch active on each zone.",
+        "image": "*Roland-Jupiter8.jpg",
         "summary": "This is a summary"
     },
     {
-        "name": "Roland Jupiter 6",
-        "id": 57,
-        "description": "ok",
-        "image": "an1x.jpg",
+        "name": "Waldorf PPG Wave",
+        "description": "PPG's Wave series represents an evolution of its predecessor by combining its digital sound engine with analog VCAs and 24db per octave VCFs, featuring 8-voice polyphony; and by replacing its nontraditional series of push buttons and sliders with a control panel consisting of an LCD and a more familiar arrangement of knobs. Also added to the Wave series was an onboard sequencer that is capable of recording filtering and wavetable changes in realtime.",
+        "image": "*waldorf-ppg-wave.jpg",
         "summary": "This is a summary"
     }
 ]
