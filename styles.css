@@ -4,7 +4,7 @@
 
 html, body {
      font-family: Arial, sans-serif;
-     height: 100%;
+     /* height: 100%; */
      color: #002a3a;
      background-color: #fefefe;
 }
@@ -17,8 +17,21 @@ body {
 .about-text {
      text-align: center;
      max-width: 1000px;
-     margin: 70px auto 180px;
+     margin: 70px auto 120px auto;
      font-size: 1.5rem;
+}
+
+.about-text p {
+     opacity: 0.8;
+}
+
+.about-section {
+     margin-top: 100px;
+}
+
+.our-mission-section {
+     margin-top: 150px;
+     line-height: 0.5;
 }
 
 .container {
@@ -33,12 +46,14 @@ body {
      background-color: #002A3A;
      color: #EE3D6E;
      text-align: center;
+     /* position: sticky; */
      position: fixed;
      right: 0;
      bottom: 0;
      left: 0;
      padding: 1rem;
      text-align: center;
+     /* margin-top: 200px; */
 }
 
 
@@ -130,21 +145,23 @@ input[disabled="disabled"]{
 .keyboard-list {
      display: flex;
      flex-wrap: wrap;
-     max-width: 1400px;
-     margin: auto;
-     margin-bottom: 120px;
-     /* height: 1200px; */
+     max-width: 85%;
+     /* max-width: 1400px; */
+     margin: 0 auto 120px auto;
      justify-content: space-between;
+     /* margin-bottom: 220px; */
+     /* height: 150%; */
 }
 
 .keyboard-card {
      border-radius: 4px;
-     flex-basis: 400px;
+     flex-basis: 300px;
      list-style-type: none;
      border: 1px solid #000;
      position: relative;
      background: #fefff9;
      color: #363636;     
+     margin-top: 60px;
 	margin-bottom: 20px; 
      padding-bottom: 30px; 
      box-shadow:  0px 0 8px 0;
@@ -156,18 +173,20 @@ input[disabled="disabled"]{
 }
 
 .keyboard-card:hover {
-     box-shadow: 0px 0px 40px 0px;
+     box-shadow: 0px 0px 50px 0px;
      cursor: pointer;
 }
 
 .card-title {
-          background: rgba(175, 69, 103, .75);
-		padding: 3.5% 0 2.5% 0;
-		color: white;
-		text-transform: uppercase;
-		position: absolute;
-		bottom: 0px;
-		width: 100%;
+     background: rgba(175, 69, 103, .75);
+     padding: 3.5% 0 2.5% 0;
+     color: white;
+     text-transform: uppercase;
+     position: absolute;
+     left: 0;
+     bottom: 0px;
+     width: 100%;
+     /* z-index: 1; */
 }
 
 .card-title h3 {
@@ -295,6 +314,20 @@ nav h1 {
      width: 100%;
 }
 
+@media screen and (max-width: 1400px){
+     .about-section {
+          max-width: 85%;
+          margin: 100px auto;
+     }
+     .about-text {
+          margin-bottom: 320px;
+     }
+     .keyboard-list {
+     max-width: 85%;
+     }
+
+}
+
 @media screen and (max-width: 960px){
      nav h1 {
           font-size: 1.2rem;
@@ -318,16 +351,43 @@ nav h1 {
 }
 
 @media screen and (max-width: 620px){
+     .about-section {
+          margin-top: 60px;
+          /* max-width: 90%; */
+     }
+     .about-text {
+          text-align: left;
+          max-width: 95%;
+          margin: 70px auto 180px auto;
+          font-size: 1.2rem;
+          /* height: 100vh; */
+     }
      .home-info-group {
           flex-direction: column;
           margin-top: 70px;
           padding: 20px;
      }
+     .keyboard-detail img {
+          width: 85%;
+     }
+     .keyboard-detail p {
+          max-width: 85%;
+     }
+     .keyboard-list {
+          margin: 0 auto 180px auto;
+     }
+     
      nav h1 {
           padding-right: 30px;
      }
      .nav-links{
           display: none;
+     }
+     .our-mission-section {
+          margin-top: 60px;
+          line-height: 1;
+          max-width: 80%;
+          margin: auto;
      }
 }
 
@@ -396,47 +456,3 @@ input[type="submit"]{
 } 
 
 
-
-/* form{
-     display: flex;
-     flex-direction: column;
-     background: #000;
-     width : 375;
-     height: 460px;
-     overflow: hidden;
-     margin: 20px;
-     border: 2px solid #fff;
- }
-
-form textarea {
-     line-height: 16px;
-     font-size: 14px;
-     height: 100px;
- }
-form label{
-     font-size : 14px;
-     margin-left: 20px;
-     margin-top: 0px;
-     margin-bottom: 0px;
-     width: 290px;
-     padding: 0 0 10px;
-     color: #fff;
- }
-
-
- input[type="submit"]{
-     padding: 0px;
-     height: 30px;
-     width: 150px !important;
-     border: none !important;
-     cursor: pointer;
-     color: #fff;
-     -webkit-border-radius: .5em;
-     -moz-border-radius: .5em;
-     border-radius: .5em;
-     color: #faddde;
-     border: solid 1px #980c10;
-     background: #d81b21;
-     background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
-     background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
-} */
