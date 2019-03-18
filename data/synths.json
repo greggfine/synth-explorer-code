@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Oberheim OB-Xa",
+        "description": "The OB-Xa is a massive analog synthesizer with a very familiar and classic Oberheim sound. This one has up to 8 voices which can be split, layered and stored!",
+        "image": "*oberheim_ob_xa.jpg"
+    },
+    {
+        "name": "Sequential Circuits Prophet-5",
+        "description": "One of the most classic analog polysynths of the 80s, the Prophet 5 features five voices with two oscillators per voice, a fat resonant low pass filter, an LFO capable of modulating the pitch or pulse width and patch memory storage, which was revolutionary for the time. While it predated MIDI implementation by several years, it does have CV input for control of the VCA or filter cutoff. ",
+        "image": "*sequential_circuits_prophet_5.jpg"
+    },
+    {
+        "name": "Roland Jupiter-6",
+        "description": "The Jupiter-6 is a 6-voice polyphonic synthesizer with a 61-note (C-C) keyboard. Each voice consists of 2 VCOs. VCO1 is switchable between any combination of triangle, sawtooth, pulse, and square oscillator and can be switched between 4 octaves. VCO2 has the same options, except the square oscillator is replaced by a noise generator switch and it has a 6 octave range, with an octave above and below VCO1's range.",
+        "image": "*roland_jupiter_6.jpg"
+    },
+    {
+        "name": "Roland Juno-106",
+        "description": "Juno-106 is Juno-6 and Juno-60 successor. Though unlike its ancestors, it features 128 presets that can be saved and offer a quick switch between them – that might have determined its popularity. This synthesizer supports MIDI control and responds to SysEx commands - it allows editing and uploading presets via computer.",
+        "image": "*roland_juno_106.jpg"
+    },
+    {
+        "name": "Yamaha CS-80",
+        "description": "A very old and very huge (over 200 lbs.) classic synthesizer. Considered Japans first great synthesizer. It had some pretty amazing features for its time such as eight voice polyphony, patch memory storage and polyphonic aftertouch. It can generate great analog strings, brass, drones and pads with that instantly recognizable classic polysynth sound. No synth sounds greater. Some examples of its extremely fat sound can be heard in 'Blade Runner' and 'Mutiny on the Bounty' by Vangelis as well as 'Dune' by Toto. ",
+        "image": "*yamaha_cs_80.jpg"
+    },
+    {
+        "name": "Moog Minimoog",
+        "description": "Historically, the Minimoog is considered the very first synthesizer for musicians! Compact, affordable, simplified and based on the megalithic modular Moog synths, the Minimoog became the most popular synth of all time, and still is to this day! Prior to the Minimoog, synthesizers were custom built to order, and required a great deal of technical knowledge to be able to wire up and create a sound.",
+        "image": "*moog_minimoog.jpg"
+    },
+    {
+        "name": "Korg Polysix",
+        "description": "At the time of its release, the Polysix, along with the contemporary Juno-6, was one of the first affordably priced polyphonic analog synthesizers. It cost about twice as much as the competing Juno-6 but had more features and 'real' VCOs in place of the Juno's DCOs. It also had on-board patch storage and backup which the cheaper Juno lacked until the upgraded Juno-60 model.",
+        "image": "*korg_polysix.jpg"
+    },
+    {
+        "name": "Roland Jupiter-8",
+        "description": "The Jupiter-8, or JP-8, is an eight-voice polyphonic analog subtractive synthesizer introduced by Roland Corporation in early 1981.The Jupiter-8 was Roland's flagship synthesizer for the first half of the 1980s. Although it lacked the soon-to-be standard of MIDI control, later model Jupiter-8s did include Roland's proprietary DCB interface. The Jupiter-8 had many advanced features for its time, including the ability to split the keyboard into two zones with a separate patch active on each zone.",
+        "image": "*roland_jupiter_8.jpg"
+    },
+    {
+        "name": "Waldorf PPG Wave",
+        "description": "PPG's Wave series represents an evolution of its predecessor by combining its digital sound engine with analog VCAs and 24db per octave VCFs, featuring 8-voice polyphony; and by replacing its nontraditional series of push buttons and sliders with a control panel consisting of an LCD and a more familiar arrangement of knobs. Also, the Wave series is capable of recording filtering and wavetable changes in realtime.",
+        "image": "*waldorf_ppg_wave.jpg"
+    }
+]

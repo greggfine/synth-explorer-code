@@ -1,0 +1,12 @@
+<input type="text" placeholder="filter" ng-model="synthFilter" class="synth-filter-input"> 
+
+<div class="synth-list" ng-controller="SynthAppController">
+       <div ng-repeat="data in myData | filter: synthFilter" class="synth-card">
+              <a href="#!/synths/{{data.name}}/{{data.description}}/{{data.image}}">
+              <img ng-src="{{data.image}}" alt="synthesizer">
+              <span class="synth-card-title">
+                     <h3>{{data.name}}</h3>
+              </span>
+              </a>
+       </div>
+</div>
